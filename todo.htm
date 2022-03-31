@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<Body background="\Screenshot (337).png">
+
+
+
+    <div class="wrapper">
+        <header>
+            <div class="heading">To Do List</div>
+            <button class="plus">+</button>
+        </header>
+        <main>
+        </main>
+        <footer>
+            <i class="fa fa-copyright">Amrendra Singh</i>
+        </footer>
+    </div>;
+
+
+    <div class="dialog">-
+        <div class="dialog-box">
+            <button class="cross">
+                <div>x</div>
+            </button>
+            <header>Add New Ticket</header>
+            <div>
+                <div>
+                    <input type="text" id="title" placeholder="Heading">
+                </div>
+                <div>
+                    <textarea rows="15" id='box-content' placeholder="Write the ticket content here."></textarea>
+                </div>
+                <div class="btn">
+                    <button onclick="addTicket()">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="todo.js"></script>
+
+</html>
